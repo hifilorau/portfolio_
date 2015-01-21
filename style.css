@@ -1,0 +1,254 @@
+body {
+  line-height:2em;
+  font-family: Raleway, sans-serif;
+
+}
+.above-fold {
+  min-height: 70px;
+  height: 100vh;
+  background-image: url("Downtown_Durham.jpg");
+  overflow: hidden;
+  position: relative;
+}
+
+
+.header-content-wrap nav {
+  margin: 0 auto;
+  width: 100%;
+  font-family:;
+  padding-top: 2em;
+  font-family: Raleway, sans-serif;
+}
+
+nav a {
+  padding:0 1em;
+  color: black;
+  height: 100%;
+  position: relative;
+  top: 2em;
+
+}
+
+.header-content-wrap {
+  margin: 0 auto;
+  padding: 20% 0;
+  max-width: 75%;
+  text-align: center;
+}
+
+
+
+.page-section {
+  width: 100%;
+  padding: 4em 0;
+}
+
+.section-a {
+  background-color: #df910a;
+}
+
+p {
+  font-size: 1.4em;
+  padding-bottom: 1.5em;
+  width: 75%;
+  margin: 0 auto;
+  letter-spacing: .1em;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: "Cabin Sketch", cursive;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.4em;
+}
+
+/*h3 {
+  margin: 2em auto;
+  width: 10em;
+
+}*/
+
+hr {
+
+}
+
+.section-b {
+  min-height: 300px;
+}
+
+.portfolio-piece {
+  width: 100%;
+  height: 400px;
+  background-image: url("images/au-logo.png") center center;
+}
+
+
+.header-home {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  padding: 2em 0;
+  text-align: center;
+  position: fixed;
+}
+
+.header-home {
+  visibility: visible;
+}
+
+.header-secondary{
+  visibility: visible;
+  padding:  0;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  z-index: 100;
+  height: 100px;
+}
+
+.nav-hover-wrap {
+  display: inline-block;
+  height: 100px;
+}
+
+.home-icon {
+  font-family: memory-header;
+  position: absolute;
+  font-size: 1.3em;
+  color: black;
+  top: 1.5em;
+  left: 2em;
+}
+
+
+
+blockquote {
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 6em;
+  color: #f6f6f6;
+}
+
+/*.header nav {
+  flex-box: flex;
+  justify-content: space-between;
+
+}*/
+
+footer {
+  background: #301900;
+  min-height: 125px;
+  position: relative;
+}
+
+.footer-nav {
+  position: absolute;
+  right: 0;
+  top: 1em;
+}
+.footer-nav a{
+  color: white;
+  font-family: "Cabin Sketch", sans-serif;
+  letter-spacing:.1em;
+  font-size: 1.4em;
+}
+
+
+.social-links a {
+  font-family: memory-header;
+  font-size: 2.1em;
+  color: white;
+  letter-spacing: 3.7em;
+}
+
+.social-links a:last-child {
+  letter-spacing: 0;
+}
+
+.social-links  {
+  position: absolute;
+  right: 2.6em;
+  top: 4.4em;
+
+}
+
+/* THE DOWN ARROW SECTION */
+.down-arrow {
+  position: absolute;
+  bottom:5%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+
+  font-family:memory-header;
+  font-size: 3em;
+  animation-name: pulse;
+  -webkit-animation-name: pulse;
+
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.down-arrow a:visited {
+  color: black;
+  }
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1);
+    opacity: .9;
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0.7;
+  }
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    opacity: 0.7;
+  }
+  50% {
+    -webkit-transform: scale(1.25);
+    opacity: .9;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    opacity: 0.7;
+  }
+}
+
+.contact-container {
+  font-size: 1.3em;
+  width: 20em;
+  margin: 4em auto;
+  color: white;
+  border: 2px white solid;
+  border-radius: .3em;
+  padding: .5em 1em;
+  position: relative;
+}
+
+.contact-container:first-child {
+  position: absolute;
+  top: -20px;
+  left: 20px;
+}
+
+.email-link {
+  color: white;
+  padding-left: 1em;
+
+
+}
